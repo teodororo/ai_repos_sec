@@ -34,7 +34,6 @@ def _parse_advisory(adv: Dict, owner: str, repo: str) -> Dict:
 
     return {
         "repo_full_name": f"{owner}/{repo}",
-        "advisory_id": adv.get("id") or adv.get("ghsa_id", ""),
         "ghsa_id": adv.get("ghsa_id", ""),
         "cve_id": adv.get("cve_id") or "",
         "title": (adv.get("summary") or adv.get("description") or "")[:255],

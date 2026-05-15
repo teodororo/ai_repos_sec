@@ -1,0 +1,4 @@
+repo_full_name,ghsa_id,cve_id,title,severity,cwes,ecosystem
+browser-use/browser-use,GHSA-x39x-9qw5-ghrf,CVE-2025-47241,`allowed_domains` can be bypassed by putting a decoy domain in http auth username portion of a URL,critical,,pip
+firecrawl/firecrawl,GHSA-p2wg-prhf-jx79,CVE-2025-57818,SSRF Vulnerability via malicious webhook,high,CWE-918,
+firecrawl/firecrawl,GHSA-vjp8-2wgg-p734,CVE-2024-56800,SSRF Vulnerability via malicious scrape target,high,CWE-918,

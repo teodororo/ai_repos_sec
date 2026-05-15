@@ -1,0 +1,143 @@
+repo_full_name,alert_number,title,severity,cwes
+google-gemini/gemini-cli,15,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,14,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,13,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,12,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,11,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,10,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,9,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+google-gemini/gemini-cli,8,Incomplete URL substring sanitization,high,CWE-020
+google-gemini/gemini-cli,7,Overly permissive regular expression range,medium,CWE-020
+google-gemini/gemini-cli,6,Shell command built from environment values,medium,CWE-078;CWE-088
+google-gemini/gemini-cli,5,Shell command built from environment values,medium,CWE-078;CWE-088
+google-gemini/gemini-cli,4,Insecure randomness,high,CWE-338
+google-gemini/gemini-cli,3,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+google-gemini/gemini-cli,2,Use of password hash with insufficient computational effort,high,CWE-916
+google-gemini/gemini-cli,1,Use of password hash with insufficient computational effort,high,CWE-916
+affaan-m/everything-claude-code,20,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+affaan-m/everything-claude-code,19,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+affaan-m/everything-claude-code,18,Polynomial regular expression used on uncontrolled data,high,CWE-1333;CWE-400;CWE-730
+affaan-m/everything-claude-code,17,Improper code sanitization,medium,CWE-079;CWE-094;CWE-116
+affaan-m/everything-claude-code,16,Improper code sanitization,medium,CWE-079;CWE-094;CWE-116
+affaan-m/everything-claude-code,15,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+affaan-m/everything-claude-code,14,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+affaan-m/everything-claude-code,13,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+affaan-m/everything-claude-code,12,Incomplete URL substring sanitization,high,CWE-020
+affaan-m/everything-claude-code,11,Incomplete URL substring sanitization,high,CWE-020
+affaan-m/everything-claude-code,10,Incomplete URL substring sanitization,high,CWE-020
+affaan-m/everything-claude-code,9,Incomplete URL substring sanitization,high,CWE-020
+affaan-m/everything-claude-code,8,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,7,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,6,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,5,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,4,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,3,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+affaan-m/everything-claude-code,2,Double escaping or unescaping,high,CWE-020;CWE-116
+affaan-m/everything-claude-code,1,Double escaping or unescaping,high,CWE-020;CWE-116
+browser-use/browser-use,9,Incomplete URL substring sanitization,high,CWE-020
+browser-use/browser-use,8,Incomplete URL substring sanitization,high,CWE-020
+browser-use/browser-use,7,Incomplete URL substring sanitization,high,CWE-020
+browser-use/browser-use,6,Incomplete URL substring sanitization,high,CWE-020
+browser-use/browser-use,5,Bad HTML filtering regexp,high,CWE-020;CWE-116;CWE-185;CWE-186
+browser-use/browser-use,4,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+browser-use/browser-use,3,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+browser-use/browser-use,2,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+browser-use/browser-use,1,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,63,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,62,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,61,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,60,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,59,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,58,Resource exhaustion,high,CWE-400;CWE-770
+firecrawl/firecrawl,57,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,56,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,55,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,54,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,53,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,52,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+firecrawl/firecrawl,51,Server-side request forgery,critical,CWE-918
+firecrawl/firecrawl,50,Server-side request forgery,critical,CWE-918
+firecrawl/firecrawl,49,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,48,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,47,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,46,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,45,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+firecrawl/firecrawl,44,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,43,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,42,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,41,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,40,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,39,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,38,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,37,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,36,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,35,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,34,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,33,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,32,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,31,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,30,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,29,Incomplete URL substring sanitization,high,CWE-020
+firecrawl/firecrawl,28,Incomplete URL scheme check,high,CWE-020;CWE-184
+firecrawl/firecrawl,27,Shell command built from environment values,medium,CWE-078;CWE-088
+firecrawl/firecrawl,26,Shell command built from environment values,medium,CWE-078;CWE-088
+firecrawl/firecrawl,25,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,24,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,23,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,22,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,21,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,20,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,19,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,18,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,17,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,16,Bad HTML filtering regexp,high,CWE-020;CWE-080;CWE-116;CWE-184;CWE-185;CWE-186
+firecrawl/firecrawl,15,Incomplete multi-character sanitization,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,14,Incomplete multi-character sanitization,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,13,Incomplete multi-character sanitization,high,CWE-020;CWE-080;CWE-116
+firecrawl/firecrawl,12,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,11,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,10,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,9,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,8,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,7,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,6,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,5,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,4,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,3,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,2,Regular expression injection,high,CWE-400;CWE-730
+firecrawl/firecrawl,1,Incomplete URL substring sanitization,high,CWE-020
+Shubhamsaboo/awesome-llm-apps,26,Overly permissive regular expression range,medium,CWE-020
+Shubhamsaboo/awesome-llm-apps,25,Overly permissive regular expression range,medium,CWE-020
+Shubhamsaboo/awesome-llm-apps,24,Overly permissive regular expression range,medium,CWE-020
+Shubhamsaboo/awesome-llm-apps,23,Incomplete URL substring sanitization,high,CWE-020
+Shubhamsaboo/awesome-llm-apps,22,Incomplete URL substring sanitization,high,CWE-020
+Shubhamsaboo/awesome-llm-apps,21,Incomplete URL substring sanitization,high,CWE-020
+Shubhamsaboo/awesome-llm-apps,20,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,19,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,18,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,17,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,16,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,15,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,14,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,13,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,12,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,11,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+Shubhamsaboo/awesome-llm-apps,10,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,9,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,8,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,7,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,6,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,5,Information exposure through an exception,medium,CWE-209;CWE-497
+Shubhamsaboo/awesome-llm-apps,4,Clear-text logging of sensitive information,high,CWE-312;CWE-359;CWE-532
+Shubhamsaboo/awesome-llm-apps,3,Full server-side request forgery,critical,CWE-918
+Shubhamsaboo/awesome-llm-apps,2,DOM text reinterpreted as HTML,high,CWE-079;CWE-116
+Shubhamsaboo/awesome-llm-apps,1,DOM text reinterpreted as HTML,high,CWE-079;CWE-116
+NousResearch/hermes-agent,9,Missing rate limiting,high,CWE-307;CWE-400;CWE-770
+NousResearch/hermes-agent,8,Inclusion of functionality from an untrusted source,medium,CWE-830
+NousResearch/hermes-agent,7,Prototype-polluting function,medium,CWE-078;CWE-079;CWE-094;CWE-400;CWE-471;CWE-915
+NousResearch/hermes-agent,6,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+NousResearch/hermes-agent,5,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+NousResearch/hermes-agent,4,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+NousResearch/hermes-agent,3,Uncontrolled data used in path expression,high,CWE-022;CWE-023;CWE-036;CWE-073;CWE-099
+NousResearch/hermes-agent,2,Uncontrolled command line,critical,CWE-078;CWE-088
+NousResearch/hermes-agent,1,Incomplete string escaping or encoding,high,CWE-020;CWE-080;CWE-116

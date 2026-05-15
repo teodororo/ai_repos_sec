@@ -1,0 +1,446 @@
+repo_full_name,pr_number,pr_title,created_at,merged_at,closed_at,status,library_name,days_to_resolution
+github/spec-kit,2489,chore(deps): bump actions/setup-dotnet from 4.3.1 to 5.2.0,2026-05-07,2026-05-08,2026-05-08,merged,actions/setup-dotnet,1
+github/spec-kit,2488,chore(deps): bump actions/github-script from 7 to 9,2026-05-07,2026-05-08,2026-05-08,merged,actions/github-script,1
+github/spec-kit,2487,chore(deps): bump DavidAnson/markdownlint-cli2-action from 23.1.0 to 23.2.0,2026-05-07,2026-05-08,2026-05-08,merged,davidanson/markdownlint-cli2-action,1
+github/spec-kit,2486,chore(deps): bump actions/checkout from 4.3.1 to 6.0.2,2026-05-07,2026-05-11,2026-05-11,merged,actions/checkout,4
+github/spec-kit,2485,chore(deps): bump github/codeql-action from 4.35.3 to 4.35.4,2026-05-07,2026-05-08,2026-05-08,merged,github/codeql-action,1
+github/spec-kit,2425,chore(deps): bump DavidAnson/markdownlint-cli2-action from 23.0.0 to 23.1.0,2026-04-30,2026-05-01,2026-05-01,merged,davidanson/markdownlint-cli2-action,1
+github/spec-kit,2345,chore(deps): bump astral-sh/setup-uv from 8.0.0 to 8.1.0,2026-04-23,2026-04-24,2026-04-24,merged,astral-sh/setup-uv,1
+github/spec-kit,2251,chore(deps): bump actions/upload-pages-artifact from 3 to 5,2026-04-16,2026-04-17,2026-04-17,merged,actions/upload-pages-artifact,1
+github/spec-kit,2072,chore(deps): bump astral-sh/setup-uv from 7.6.0 to 8.0.0,2026-04-02,2026-04-03,2026-04-03,merged,astral-sh/setup-uv,1
+github/spec-kit,2071,chore(deps): bump actions/configure-pages from 5 to 6,2026-04-02,2026-04-03,2026-04-03,merged,actions/configure-pages,1
+github/spec-kit,1990,chore(deps): bump actions/deploy-pages from 4 to 5,2026-03-26,2026-03-27,2026-03-27,merged,actions/deploy-pages,1
+github/spec-kit,1989,chore(deps): bump DavidAnson/markdownlint-cli2-action from 19 to 23,2026-03-26,2026-03-27,2026-03-27,merged,davidanson/markdownlint-cli2-action,1
+github/spec-kit,1710,chore(deps): bump actions/setup-python from 5 to 6,2026-02-26,2026-02-27,2026-02-27,merged,actions/setup-python,1
+github/spec-kit,1709,chore(deps): bump astral-sh/setup-uv from 6 to 7,2026-02-26,2026-02-27,2026-02-27,merged,astral-sh/setup-uv,1
+github/spec-kit,1635,chore(deps): bump github/codeql-action from 3 to 4,2026-02-19,2026-02-19,2026-02-19,merged,github/codeql-action,0
+github/spec-kit,1627,chore(deps): bump actions/checkout from 4 to 6,2026-02-18,,2026-02-19,closed,actions/checkout,1
+github/spec-kit,1626,chore(deps): bump actions/setup-dotnet from 4 to 5,2026-02-18,,2026-02-19,closed,actions/setup-dotnet,1
+github/spec-kit,1625,chore(deps): bump DavidAnson/markdownlint-cli2-action from 19 to 22,2026-02-18,,2026-02-19,closed,davidanson/markdownlint-cli2-action,1
+github/spec-kit,1624,chore(deps): bump actions/upload-pages-artifact from 3 to 4,2026-02-18,,2026-02-19,closed,actions/upload-pages-artifact,1
+github/spec-kit,1623,chore(deps): bump actions/stale from 9 to 10,2026-02-18,2026-02-19,2026-02-19,merged,actions/stale,1
+microsoft/markitdown,1487,Bump actions/checkout from 5 to 6,2025-11-24,,,open,actions/checkout,
+microsoft/markitdown,1411,Bump actions/setup-python from 5 to 6,2025-09-08,,,open,actions/setup-python,
+microsoft/markitdown,1394,Bump actions/checkout from 4 to 5,2025-08-11,2025-08-26,2025-08-26,merged,actions/checkout,15.0
+microsoft/markitdown,179,Bump actions/setup-python from 2 to 5,2024-12-20,2024-12-21,2024-12-21,merged,actions/setup-python,0.0
+microsoft/markitdown,178,Bump actions/cache from 3 to 4,2024-12-20,2024-12-21,2024-12-21,merged,actions/cache,0.0
+microsoft/markitdown,177,Bump actions/checkout from 2 to 4,2024-12-20,2024-12-20,2024-12-20,merged,actions/checkout,0.0
+google-gemini/gemini-cli,27019,chore(deps): bump systeminformation from 5.31.4 to 5.31.6,2026-05-13,,2026-05-13,closed,systeminformation,0.0
+google-gemini/gemini-cli,26945,chore(deps): bump @protobufjs/utf8 from 1.1.0 to 1.1.1,2026-05-12,,2026-05-12,closed,@protobufjs/utf8,0.0
+google-gemini/gemini-cli,26920,"build(deps): bump protobufjs, @opentelemetry/exporter-logs-otlp-grpc, @opentelemetry/exporter-logs-otlp-http, @opentelemetry/exporter-metrics-otlp-grpc, @opentelemetry/exporter-metrics-otlp-http, @opentelemetry/exporter-trace-otlp-grpc, @opentelemetry/exporter-trace-otlp-http, @opentelemetry/otlp-exporter-base and @opentelemetry/sdk-node",2026-05-12,,2026-05-12,closed,unknown,0.0
+google-gemini/gemini-cli,26867,build(deps): bump @opentelemetry/exporter-prometheus and @opentelemetry/sdk-node,2026-05-11,,2026-05-11,closed,unknown,0.0
+google-gemini/gemini-cli,26716,build(deps): bump fast-uri from 3.0.6 to 3.1.2,2026-05-08,,2026-05-08,closed,fast-uri,0.0
+google-gemini/gemini-cli,26711,build(deps): bump fast-xml-builder from 1.1.4 to 1.2.0,2026-05-08,,2026-05-08,closed,fast-xml-builder,0.0
+google-gemini/gemini-cli,26673,build(deps): bump hono from 4.12.12 to 4.12.18,2026-05-07,,2026-05-07,closed,hono,0.0
+google-gemini/gemini-cli,26610,build(deps): bump basic-ftp from 5.2.2 to 5.3.1,2026-05-06,,2026-05-06,closed,basic-ftp,0.0
+google-gemini/gemini-cli,26611,build(deps): bump ip-address and express-rate-limit,2026-05-06,,2026-05-06,closed,unknown,0.0
+google-gemini/gemini-cli,26546,build(deps): bump simple-git from 3.33.0 to 3.36.0,2026-05-05,,2026-05-05,closed,simple-git,0.0
+google-gemini/gemini-cli,25928,chore(deps): bump postcss from 8.5.6 to 8.5.10,2026-04-24,,,open,postcss,
+google-gemini/gemini-cli,25850,chore(deps): bump uuid from 13.0.0 to 14.0.0,2026-04-23,,,open,uuid,
+google-gemini/gemini-cli,25849,chore(deps): bump fast-xml-parser from 5.5.9 to 5.7.1,2026-04-23,,,open,fast-xml-parser,
+google-gemini/gemini-cli,25756,"chore(deps): bump protobufjs, @opentelemetry/exporter-logs-otlp-grpc, @opentelemetry/exporter-logs-otlp-http, @opentelemetry/exporter-metrics-otlp-grpc, @opentelemetry/exporter-metrics-otlp-http, @opentelemetry/exporter-trace-otlp-grpc, @opentelemetry/exporter-trace-otlp-http, @opentelemetry/otlp-exporter-base and @opentelemetry/sdk-node",2026-04-21,,,open,unknown,
+google-gemini/gemini-cli,25755,chore(deps): bump basic-ftp from 5.2.2 to 5.3.0,2026-04-21,,,open,basic-ftp,
+google-gemini/gemini-cli,24783,chore(deps): bump vite from 7.2.2 to 7.3.2,2026-04-06,,2026-04-10,closed,vite,4.0
+google-gemini/gemini-cli,24519,chore(deps): bump lodash from 4.17.23 to 4.18.1,2026-04-02,,2026-04-10,closed,lodash,8.0
+google-gemini/gemini-cli,23963,chore(deps): bump brace-expansion from 5.0.4 to 5.0.5,2026-03-27,,2026-04-10,closed,brace-expansion,15.0
+google-gemini/gemini-cli,23834,chore(deps): bump yaml,2026-03-25,,2026-04-10,closed,unknown,16.0
+google-gemini/gemini-cli,23832,chore(deps): bump picomatch from 4.0.3 to 4.0.4,2026-03-25,,2026-04-10,closed,picomatch,16.0
+google-gemini/gemini-cli,23162,chore(deps-dev): bump flatted from 3.3.3 to 3.4.2,2026-03-19,,2026-03-24,closed,flatted,5.0
+google-gemini/gemini-cli,22375,build(deps): bump undici from 7.19.0 to 7.24.0,2026-03-13,,2026-03-24,closed,undici,11.0
+google-gemini/gemini-cli,21916,build(deps): bump simple-git from 3.28.0 to 3.32.3,2026-03-10,,2026-03-12,closed,simple-git,2.0
+google-gemini/gemini-cli,21272,build(deps): bump tar from 7.5.8 to 7.5.10,2026-03-05,,2026-03-10,closed,tar,5.0
+google-gemini/gemini-cli,20499,chore(deps): bump minimatch from 10.2.2 to 10.2.4,2026-02-26,,,open,minimatch,
+google-gemini/gemini-cli,20382,chore(deps): bump rollup from 4.53.2 to 4.59.0,2026-02-26,,,open,rollup,
+google-gemini/gemini-cli,19495,chore(deps): bump systeminformation from 5.30.2 to 5.30.8,2026-02-19,,2026-02-23,closed,systeminformation,5.0
+google-gemini/gemini-cli,19370,chore(deps): bump ajv from 8.17.1 to 8.18.0,2026-02-18,,2026-02-23,closed,ajv,6.0
+google-gemini/gemini-cli,19367,chore(deps): bump tar from 7.5.7 to 7.5.8,2026-02-18,2026-02-18,2026-02-18,merged,tar,1.0
+google-gemini/gemini-cli,18339,chore(deps): bump @modelcontextprotocol/sdk from 1.25.3 to 1.26.0,2026-02-04,,2026-03-07,closed,@modelcontextprotocol/sdk,30.0
+google-gemini/gemini-cli,18227,chore(deps): bump @isaacs/brace-expansion from 5.0.0 to 5.0.1,2026-02-03,,2026-03-06,closed,@isaacs/brace-expansion,30.0
+google-gemini/gemini-cli,17860,chore(deps): bump tar from 7.5.6 to 7.5.7,2026-01-29,,2026-01-30,closed,tar,1.0
+google-gemini/gemini-cli,17508,chore(deps-dev): bump vite from 5.4.21 to 7.3.1 in /devtools-standalone,2026-01-26,,2026-01-26,closed,vite,0.0
+google-gemini/gemini-cli,17507,chore(deps): bump esbuild and vite in /devtools-standalone,2026-01-26,,2026-01-26,closed,unknown,0.0
+google-gemini/gemini-cli,17273,chore(deps): bump lodash from 4.17.21 to 4.17.23,2026-01-22,,2026-01-24,closed,lodash,3.0
+google-gemini/gemini-cli,17182,chore(deps): bump tar from 7.5.2 to 7.5.4,2026-01-21,,2026-01-24,closed,tar,3.0
+google-gemini/gemini-cli,16903,chore(deps): bump tar from 7.5.2 to 7.5.3,2026-01-17,,2026-01-21,closed,tar,4.0
+google-gemini/gemini-cli,16817,chore(deps): bump diff from 7.0.0 to 8.0.3,2026-01-16,,2026-01-24,closed,diff,9.0
+google-gemini/gemini-cli,16693,chore(deps): bump strip-json-comments from 3.1.1 to 5.0.3,2026-01-15,,2026-02-15,closed,strip-json-comments,31.0
+google-gemini/gemini-cli,16692,chore(deps-dev): bump globals from 16.3.0 to 17.0.0,2026-01-15,,2026-02-15,closed,globals,31.0
+google-gemini/gemini-cli,16691,chore(deps-dev): bump @types/minimatch from 5.1.2 to 6.0.0,2026-01-15,,2026-02-15,closed,@types/minimatch,31.0
+google-gemini/gemini-cli,16690,chore(deps): bump diff and @types/diff,2026-01-15,,2026-02-15,closed,unknown,31.0
+google-gemini/gemini-cli,16689,chore(deps): bump google-auth-library from 9.15.1 to 10.5.0,2026-01-15,,2026-02-15,closed,google-auth-library,31.0
+google-gemini/gemini-cli,16688,chore(deps): bump open from 10.1.2 to 11.0.0,2026-01-15,,2026-02-15,closed,open,31.0
+google-gemini/gemini-cli,16687,chore(deps): bump @xterm/headless from 5.5.0 to 6.0.0,2026-01-15,,2026-02-15,closed,@xterm/headless,31.0
+google-gemini/gemini-cli,16686,chore(deps): bump marked from 15.0.12 to 17.0.1,2026-01-15,,2026-02-15,closed,marked,31.0
+google-gemini/gemini-cli,16685,chore(deps-dev): bump @types/archiver from 6.0.3 to 7.0.0,2026-01-15,,2026-02-15,closed,@types/archiver,31.0
+google-gemini/gemini-cli,16684,chore(deps): bump the npm-dependencies group with 55 updates,2026-01-15,,2026-02-15,closed,unknown,31.0
+google-gemini/gemini-cli,16683,chore(deps): bump actions/upload-pages-artifact from 3.0.1 to 4.0.0,2026-01-15,,2026-02-15,closed,actions/upload-pages-artifact,31.0
+google-gemini/gemini-cli,16682,chore(deps): bump actions/upload-artifact from 4.6.2 to 6.0.0,2026-01-15,,2026-02-15,closed,actions/upload-artifact,31.0
+google-gemini/gemini-cli,16681,chore(deps): bump actions/github-script from 7 to 8,2026-01-15,,2026-02-15,closed,actions/github-script,31.0
+google-gemini/gemini-cli,16680,chore(deps): bump actions/checkout from 4 to 6,2026-01-15,,2026-02-15,closed,actions/checkout,31.0
+google-gemini/gemini-cli,16679,chore(deps): bump actions/stale from 9.1.0 to 10.1.1,2026-01-15,,2026-02-15,closed,actions/stale,31.0
+google-gemini/gemini-cli,16678,chore(deps): bump myrotvorets/set-commit-status-action from 16037e056d73b2d3c88e37e393ff369047f70886 to 0e709a89566c3de108b6674b65fb22aca2133247,2026-01-15,,2026-02-15,closed,myrotvorets/set-commit-status-action,31.0
+google-gemini/gemini-cli,16677,chore(deps): bump github/codeql-action from 3.29.9 to 4.31.10,2026-01-15,,2026-02-15,closed,github/codeql-action,31.0
+google-gemini/gemini-cli,16676,chore(deps): bump actions/download-artifact from 4.1.9 to 7.0.0,2026-01-15,,2026-02-15,closed,actions/download-artifact,31.0
+google-gemini/gemini-cli,16675,chore(deps): bump google-github-actions/auth from 2.1.13 to 3.0.0,2026-01-15,,2026-02-15,closed,google-github-actions/auth,31.0
+google-gemini/gemini-cli,16674,chore(deps): bump the actions-dependencies group with 6 updates,2026-01-15,,2026-02-15,closed,unknown,31.0
+google-gemini/gemini-cli,16653,chore(deps): bump undici from 7.15.0 to 7.18.2,2026-01-14,,2026-02-15,closed,undici,31.0
+google-gemini/gemini-cli,16072,chore(deps): bump @modelcontextprotocol/sdk from 1.23.0 to 1.25.2,2026-01-07,,2026-02-15,closed,@modelcontextprotocol/sdk,38.0
+google-gemini/gemini-cli,14517,chore(deps): bump jws from 4.0.0 to 4.0.1,2025-12-04,,2026-02-15,closed,jws,72.0
+google-gemini/gemini-cli,14384,chore(deps): bump @modelcontextprotocol/sdk from 1.23.0 to 1.24.0,2025-12-02,,2026-01-07,closed,@modelcontextprotocol/sdk,36.0
+google-gemini/gemini-cli,14325,chore(deps): bump express from 5.1.0 to 5.2.0,2025-12-01,2025-12-09,2025-12-09,merged,express,8.0
+google-gemini/gemini-cli,13310,chore(deps): bump glob from 10.4.5 to 10.5.0,2025-11-18,,2025-12-09,closed,glob,21.0
+google-gemini/gemini-cli,13238,chore(deps-dev): bump js-yaml from 3.14.1 to 3.14.2,2025-11-17,,2025-11-18,closed,js-yaml,0.0
+google-gemini/gemini-cli,12298,chore(deps): bump tar from 7.5.1 to 7.5.2,2025-10-30,,2025-11-03,closed,tar,4.0
+google-gemini/gemini-cli,11533,chore(deps): bump vite from 7.1.9 to 7.1.11,2025-10-20,,2025-11-04,closed,vite,14.0
+google-gemini/gemini-cli,8121,chore(deps): bump vite from 7.0.0 to 7.1.5,2025-09-09,,2025-12-09,closed,vite,91.0
+google-gemini/gemini-cli,7356,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 27 updates,2025-08-28,,2025-08-29,closed,unknown,1.0
+google-gemini/gemini-cli,7322,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 28 updates,2025-08-28,,2025-08-28,closed,unknown,0.0
+google-gemini/gemini-cli,7272,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 27 updates,2025-08-28,,2025-08-28,closed,unknown,1.0
+google-gemini/gemini-cli,7217,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 26 updates,2025-08-27,,2025-08-27,closed,unknown,0.0
+google-gemini/gemini-cli,7084,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 26 updates,2025-08-26,,2025-08-27,closed,unknown,1.0
+google-gemini/gemini-cli,6788,chore(deps)(deps): bump the npm-minor-patch group across 1 directory with 25 updates,2025-08-21,,2025-08-25,closed,unknown,4.0
+google-gemini/gemini-cli,6617,chore(deps)(deps): bump zod from 3.25.76 to 4.0.17,2025-08-20,,2025-08-22,closed,zod,2.0
+google-gemini/gemini-cli,6615,chore(deps)(deps-dev): bump react-devtools-core from 4.28.5 to 6.1.5,2025-08-20,,2025-08-22,closed,react-devtools-core,2.0
+google-gemini/gemini-cli,6614,chore(deps)(deps): bump google-github-actions/run-gemini-cli from 0.1.10 to 0.1.11,2025-08-20,2025-08-20,2025-08-20,merged,google-github-actions/run-gemini-cli,0.0
+google-gemini/gemini-cli,6613,chore(deps)(deps): bump github/codeql-action from 3.29.9 to 3.29.10,2025-08-20,,2025-08-22,closed,github/codeql-action,3.0
+google-gemini/gemini-cli,6612,chore(deps)(deps-dev): bump @types/node from 20.19.1 to 24.3.0,2025-08-20,,2025-08-22,closed,@types/node,3.0
+google-gemini/gemini-cli,6611,chore(deps)(deps): bump actions/upload-pages-artifact from 3.0.1 to 4.0.0,2025-08-20,,2025-08-22,closed,actions/upload-pages-artifact,3.0
+google-gemini/gemini-cli,6610,chore(deps)(deps-dev): bump cross-env from 7.0.3 to 10.0.0,2025-08-20,,2025-08-22,closed,cross-env,3.0
+google-gemini/gemini-cli,6609,chore(deps)(deps): bump the npm-minor-patch group with 26 updates,2025-08-20,,2025-08-21,closed,unknown,2.0
+google-gemini/gemini-cli,3592,chore(deps): bump gaxios from 6.7.1 to 7.1.1,2025-07-09,2025-07-09,2025-07-09,merged,gaxios,0.0
+google-gemini/gemini-cli,3591,chore(deps): bump @opentelemetry/exporter-trace-otlp-grpc from 0.52.1 to 0.202.0,2025-07-09,,2025-07-09,closed,@opentelemetry/exporter-trace-otlp-grpc,0.0
+google-gemini/gemini-cli,3590,chore(deps): bump yargs from 17.7.2 to 18.0.0,2025-07-09,2025-07-09,2025-07-09,merged,yargs,0.0
+google-gemini/gemini-cli,3589,chore(deps): bump dotenv from 16.6.1 to 17.1.0,2025-07-09,2025-07-09,2025-07-09,merged,dotenv,0.0
+google-gemini/gemini-cli,3588,chore(deps): bump @opentelemetry/instrumentation-http from 0.52.1 to 0.202.0,2025-07-09,,2025-07-09,closed,@opentelemetry/instrumentation-http,0.0
+google-gemini/gemini-cli,3587,chore(deps-dev): bump globals from 16.2.0 to 16.3.0,2025-07-09,2025-07-09,2025-07-09,merged,globals,0.0
+google-gemini/gemini-cli,3586,chore(deps-dev): bump esbuild from 0.25.5 to 0.25.6,2025-07-09,2025-07-09,2025-07-09,merged,esbuild,0.0
+google-gemini/gemini-cli,3585,chore(deps): bump @opentelemetry/exporter-logs-otlp-grpc from 0.52.1 to 0.202.0,2025-07-09,,2025-07-09,closed,@opentelemetry/exporter-logs-otlp-grpc,0.0
+google-gemini/gemini-cli,3584,chore(deps-dev): bump react-devtools-core from 4.28.5 to 6.1.5,2025-07-09,,2025-07-09,closed,react-devtools-core,0.0
+google-gemini/gemini-cli,3583,chore(deps): bump google-auth-library from 9.15.1 to 10.1.0,2025-07-09,2025-07-09,2025-07-09,merged,google-auth-library,0.0
+google-gemini/gemini-cli,3582,chore(deps): bump mime-types and @types/mime-types,2025-07-09,2025-07-09,2025-07-09,merged,unknown,0.0
+google-gemini/gemini-cli,3581,chore(deps): bump ws from 8.18.2 to 8.18.3,2025-07-09,2025-07-09,2025-07-09,merged,ws,0.0
+google-gemini/gemini-cli,3580,chore(deps): bump @opentelemetry/sdk-node from 0.52.1 to 0.202.0,2025-07-09,,2025-07-09,closed,@opentelemetry/sdk-node,0.0
+google-gemini/gemini-cli,3579,chore(deps): bump @opentelemetry/exporter-metrics-otlp-grpc from 0.52.1 to 0.202.0,2025-07-09,,2025-07-09,closed,@opentelemetry/exporter-metrics-otlp-grpc,0.0
+google-gemini/gemini-cli,3578,chore(deps): bump diff from 7.0.0 to 8.0.2,2025-07-09,,2025-07-09,closed,diff,0.0
+google-gemini/gemini-cli,3576,chore(deps): bump actions/create-github-app-token from 1 to 2,2025-07-09,2025-07-09,2025-07-09,merged,actions/create-github-app-token,0.0
+google-gemini/gemini-cli,3575,chore(deps): bump dorny/test-reporter from 1 to 2,2025-07-09,2025-07-09,2025-07-09,merged,dorny/test-reporter,0.0
+google-gemini/gemini-cli,872,chore(deps-dev): bump esbuild from 0.23.1 to 0.25.0,2025-06-09,2025-06-12,2025-06-12,merged,esbuild,2.0
+affaan-m/everything-claude-code,1708,build(deps): bump pnpm/action-setup from 6.0.0 to 6.0.6,2026-05-10,2026-05-11,2026-05-11,merged,pnpm/action-setup,1
+affaan-m/everything-claude-code,1703,build(deps): bump fast-uri from 3.1.0 to 3.1.2,2026-05-09,2026-05-11,2026-05-11,merged,fast-uri,2
+affaan-m/everything-claude-code,1672,build(deps): bump pnpm/action-setup from 6.0.0 to 6.0.5,2026-05-03,,2026-05-10,closed,pnpm/action-setup,7
+affaan-m/everything-claude-code,1582,build(deps): bump the minor-and-patch group across 1 directory with 3 updates,2026-04-26,2026-05-11,2026-05-11,merged,unknown,15
+affaan-m/everything-claude-code,1581,chore(deps): bump actions/setup-node from 6.3.0 to 6.4.0,2026-04-26,,2026-05-11,closed,actions/setup-node,15
+affaan-m/everything-claude-code,1580,chore(deps): bump pnpm/action-setup from 6.0.0 to 6.0.3,2026-04-26,,2026-05-03,closed,pnpm/action-setup,7
+affaan-m/everything-claude-code,1551,chore(deps): bump the cargo group across 1 directory with 2 updates,2026-04-23,,2026-05-11,closed,unknown,18
+affaan-m/everything-claude-code,1497,chore(deps): bump actions/cache from 5.0.4 to 5.0.5,2026-04-19,2026-05-11,2026-05-11,merged,actions/cache,22
+affaan-m/everything-claude-code,1496,chore(deps): bump pnpm/action-setup from 6.0.0 to 6.0.1,2026-04-19,,2026-04-26,closed,pnpm/action-setup,7
+affaan-m/everything-claude-code,1404,build(deps-dev): bump the minor-and-patch group across 1 directory with 2 updates,2026-04-13,,2026-04-26,closed,unknown,13
+affaan-m/everything-claude-code,1375,build(deps-dev): bump @types/node from 20.19.39 to 25.6.0,2026-04-12,,2026-05-11,closed,@types/node,29
+affaan-m/everything-claude-code,1373,build(deps-dev): bump typescript from 5.9.3 to 6.0.2,2026-04-12,,2026-05-11,closed,typescript,29
+affaan-m/everything-claude-code,1372,build(deps-dev): bump @opencode-ai/plugin from 1.3.15 to 1.4.3 in the minor-and-patch group,2026-04-12,,2026-04-13,closed,@opencode-ai/plugin,1
+affaan-m/everything-claude-code,1371,build(deps): bump actions/github-script from 8.0.0 to 9.0.0,2026-04-12,2026-04-13,2026-04-13,merged,actions/github-script,1
+affaan-m/everything-claude-code,1370,build(deps): bump softprops/action-gh-release from 2.6.1 to 3.0.0,2026-04-12,2026-04-13,2026-04-13,merged,softprops/action-gh-release,1
+affaan-m/everything-claude-code,1369,build(deps): bump pnpm/action-setup from 5.0.0 to 6.0.0,2026-04-12,2026-04-13,2026-04-13,merged,pnpm/action-setup,1
+affaan-m/everything-claude-code,1368,build(deps): bump actions/upload-artifact from 7.0.0 to 7.0.1,2026-04-12,2026-04-13,2026-04-13,merged,actions/upload-artifact,1
+affaan-m/everything-claude-code,1244,chore(deps-dev): bump eslint from 9.39.2 to 10.2.0,2026-04-05,,2026-04-05,closed,eslint,1
+affaan-m/everything-claude-code,1243,chore(deps-dev): bump globals from 17.1.0 to 17.4.0 in the minor-and-patch group across 1 directory,2026-04-05,,2026-04-05,closed,globals,1
+affaan-m/everything-claude-code,1242,chore(deps): bump actions/stale from 9.1.0 to 10.2.0,2026-04-05,,2026-04-05,closed,actions/stale,1
+affaan-m/everything-claude-code,1065,chore(deps-dev): bump c8 from 10.1.3 to 11.0.0,2026-03-31,2026-03-31,2026-03-31,merged,c8,0
+affaan-m/everything-claude-code,1064,chore(deps-dev): bump @eslint/js from 9.39.2 to 10.0.1,2026-03-31,,2026-04-01,closed,@eslint/js,0
+affaan-m/everything-claude-code,1063,chore(deps-dev): bump eslint from 9.39.2 to 10.1.0,2026-03-31,,2026-04-01,closed,eslint,0
+affaan-m/everything-claude-code,1062,chore(deps-dev): bump globals from 17.1.0 to 17.4.0 in the minor-and-patch group,2026-03-31,2026-03-31,2026-03-31,merged,globals,0
+affaan-m/everything-claude-code,1061,chore(deps): bump actions/upload-artifact from 4.6.2 to 7.0.0,2026-03-31,2026-03-31,2026-03-31,merged,actions/upload-artifact,0
+affaan-m/everything-claude-code,1060,chore(deps): bump actions/checkout from 4.3.1 to 6.0.2,2026-03-31,2026-03-31,2026-03-31,merged,actions/checkout,0
+affaan-m/everything-claude-code,1059,chore(deps): bump actions/github-script from 7.1.0 to 8.0.0,2026-03-31,2026-03-31,2026-03-31,merged,actions/github-script,0
+affaan-m/everything-claude-code,1058,chore(deps): bump actions/setup-node from 4.4.0 to 6.3.0,2026-03-31,2026-03-31,2026-03-31,merged,actions/setup-node,0
+affaan-m/everything-claude-code,1057,chore(deps): bump actions/cache from 4.3.0 to 5.0.4,2026-03-31,2026-03-31,2026-03-31,merged,actions/cache,0
+affaan-m/everything-claude-code,938,chore(deps-dev): bump picomatch from 4.0.3 to 4.0.4 in the npm_and_yarn group across 1 directory,2026-03-26,2026-03-27,2026-03-27,merged,picomatch,1
+affaan-m/everything-claude-code,880,chore(deps): bump git2 from 0.19.0 to 0.20.4 in /ecc2 in the cargo group across 1 directory,2026-03-24,2026-03-25,2026-03-25,merged,git2,1
+affaan-m/everything-claude-code,675,chore(deps-dev): bump flatted from 3.3.3 to 3.4.2 in the npm_and_yarn group across 1 directory,2026-03-20,2026-03-20,2026-03-20,merged,flatted,0
+firecrawl/firecrawl,2436,chore(deps): bump actions/checkout from 5 to 6,2025-11-24,,,open,actions/checkout,
+firecrawl/firecrawl,2337,build(deps): bump actions/upload-artifact from 4 to 5,2025-10-27,,,open,actions/upload-artifact,
+firecrawl/firecrawl,2304,build(deps): bump actions/setup-node from 4 to 6,2025-10-20,,,open,actions/setup-node,
+firecrawl/firecrawl,2303,build(deps): bump tailscale/github-action from 3 to 4,2025-10-20,,2025-10-23,closed,tailscale/github-action,3.0
+firecrawl/firecrawl,2154,build(deps): bump actions/setup-go from 5 to 6,2025-09-15,,,open,actions/setup-go,
+firecrawl/firecrawl,2115,build(deps): bump actions/checkout from 3 to 5,2025-09-08,2025-10-02,2025-10-02,merged,actions/checkout,24.0
+firecrawl/firecrawl,2114,build(deps): bump actions/setup-node from 4 to 5,2025-09-08,,2025-10-20,closed,actions/setup-node,42.0
+firecrawl/firecrawl,2113,build(deps): bump actions/download-artifact from 4 to 5,2025-09-08,,2025-09-09,closed,actions/download-artifact,1.0
+firecrawl/firecrawl,2112,build(deps): bump actions/setup-python from 5 to 6,2025-09-08,,,open,actions/setup-python,
+firecrawl/firecrawl,2028,build(deps): bump actions/setup-python from 4 to 5,2025-08-25,2025-09-01,2025-09-01,merged,actions/setup-python,7.0
+firecrawl/firecrawl,1998,build(deps): bump actions/checkout from 3 to 5,2025-08-21,2025-09-01,2025-09-01,merged,actions/checkout,11.0
+firecrawl/firecrawl,1997,build(deps): bump actions/setup-node from 3 to 4,2025-08-21,2025-09-01,2025-09-01,merged,actions/setup-node,11.0
+firecrawl/firecrawl,1996,build(deps): bump docker/login-action from 1 to 3,2025-08-21,2025-09-01,2025-09-01,merged,docker/login-action,11.0
+firecrawl/firecrawl,1995,build(deps): bump docker/build-push-action from 5 to 6,2025-08-21,2025-09-01,2025-09-01,merged,docker/build-push-action,11.0
+firecrawl/firecrawl,1991,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-08-21,,2025-08-21,closed,unknown,0.0
+firecrawl/firecrawl,1976,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 4 updates,2025-08-18,,2025-08-21,closed,unknown,3.0
+firecrawl/firecrawl,1975,apps/api(deps-dev): bump the dev-deps group across 1 directory with 13 updates,2025-08-18,,2025-08-18,closed,unknown,0.0
+firecrawl/firecrawl,1970,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-08-15,,2025-08-21,closed,unknown,6.0
+firecrawl/firecrawl,1949,apps/api(deps): bump the prod-deps group across 1 directory with 59 updates,2025-08-11,,2025-08-15,closed,unknown,4.0
+firecrawl/firecrawl,1940,apps/api(deps): bump the prod-deps group across 1 directory with 58 updates,2025-08-08,,2025-08-11,closed,unknown,2.0
+firecrawl/firecrawl,1938,apps/test-suite(deps): bump the prod-deps group across 1 directory with 7 updates,2025-08-08,,2025-08-21,closed,unknown,13.0
+firecrawl/firecrawl,1918,apps/test-suite(deps): bump the prod-deps group across 1 directory with 6 updates,2025-08-04,,2025-08-08,closed,unknown,4.0
+firecrawl/firecrawl,1914,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2025-08-03,,2025-08-18,closed,unknown,15.0
+firecrawl/firecrawl,1900,apps/api(deps): bump the prod-deps group across 1 directory with 57 updates,2025-07-31,,2025-08-08,closed,unknown,8.0
+firecrawl/firecrawl,1898,apps/api(deps): bump the prod-deps group across 1 directory with 56 updates,2025-07-30,,2025-07-31,closed,unknown,1.0
+firecrawl/firecrawl,1897,apps/api(deps): bump the prod-deps group across 1 directory with 57 updates,2025-07-30,,2025-07-30,closed,unknown,0.0
+firecrawl/firecrawl,1882,apps/api(deps): bump the prod-deps group across 1 directory with 56 updates,2025-07-29,,2025-07-30,closed,unknown,1.0
+firecrawl/firecrawl,1878,apps/api(deps): bump the prod-deps group across 1 directory with 55 updates,2025-07-28,,2025-07-29,closed,unknown,1.0
+firecrawl/firecrawl,1868,apps/test-suite(deps): bump the prod-deps group across 1 directory with 3 updates,2025-07-28,,2025-08-04,closed,unknown,7.0
+firecrawl/firecrawl,1867,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 3 updates,2025-07-28,,2025-08-18,closed,unknown,21.0
+firecrawl/firecrawl,1866,apps/api(deps): bump the prod-deps group in /apps/api with 56 updates,2025-07-28,,2025-07-28,closed,unknown,0.0
+firecrawl/firecrawl,1865,apps/api(deps-dev): bump the dev-deps group across 1 directory with 11 updates,2025-07-28,,2025-08-03,closed,unknown,6.0
+firecrawl/firecrawl,1834,chore(deps): bump esbuild and tsx in /apps/js-sdk,2025-07-23,2025-07-23,2025-07-23,merged,unknown,0.0
+firecrawl/firecrawl,1833,chore(deps): bump axios from 1.6.8 to 1.11.0 in /apps/js-sdk,2025-07-23,2025-07-23,2025-07-23,merged,axios,0.0
+firecrawl/firecrawl,1832,chore(deps): bump form-data from 4.0.0 to 4.0.4 in /apps/js-sdk,2025-07-23,2025-07-23,2025-07-23,merged,form-data,0.0
+firecrawl/firecrawl,1830,apps/api(deps): bump the prod-deps group across 1 directory with 52 updates,2025-07-23,,2025-07-23,closed,unknown,0.0
+firecrawl/firecrawl,1793,apps/api(deps): bump the prod-deps group across 1 directory with 63 updates,2025-07-14,,2025-07-23,closed,unknown,9.0
+firecrawl/firecrawl,1770,apps/api(deps): bump the prod-deps group in /apps/api with 62 updates,2025-07-07,,2025-07-14,closed,unknown,7.0
+firecrawl/firecrawl,1733,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-06-30,,2025-07-04,closed,unknown,4.0
+firecrawl/firecrawl,1696,apps/test-suite(deps): bump the prod-deps group across 1 directory with 10 updates,2025-06-23,,2025-07-28,closed,unknown,35.0
+firecrawl/firecrawl,1691,apps/api(deps): bump the prod-deps group across 1 directory with 61 updates,2025-06-20,,2025-06-30,closed,unknown,9.0
+firecrawl/firecrawl,1689,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2025-06-20,,2025-07-28,closed,unknown,38.0
+firecrawl/firecrawl,1673,apps/test-suite(deps): bump the prod-deps group across 1 directory with 9 updates,2025-06-16,,2025-06-23,closed,unknown,7.0
+firecrawl/firecrawl,1672,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 4 updates,2025-06-16,,2025-07-28,closed,unknown,42.0
+firecrawl/firecrawl,1671,apps/api(deps-dev): bump the dev-deps group across 1 directory with 11 updates,2025-06-16,,2025-06-20,closed,unknown,5.0
+firecrawl/firecrawl,1650,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 4 updates,2025-06-09,,2025-06-16,closed,unknown,7.0
+firecrawl/firecrawl,1619,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-06-02,,2025-06-20,closed,unknown,18.0
+firecrawl/firecrawl,1618,apps/api(deps-dev): bump the dev-deps group across 1 directory with 10 updates,2025-06-02,,2025-06-16,closed,unknown,13.0
+firecrawl/firecrawl,1614,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-06-02,,2025-06-02,closed,unknown,1.0
+firecrawl/firecrawl,1613,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2025-06-02,,2025-06-02,closed,unknown,1.0
+firecrawl/firecrawl,1612,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 5 updates,2025-06-02,,2025-06-09,closed,unknown,7.0
+firecrawl/firecrawl,1611,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 8 updates,2025-06-02,,2025-06-16,closed,unknown,14.0
+firecrawl/firecrawl,1567,apps/api(deps): bump the prod-deps group across 1 directory with 63 updates,2025-05-19,,2025-06-02,closed,unknown,14.0
+firecrawl/firecrawl,1543,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-05-12,,2025-05-19,closed,unknown,7.0
+firecrawl/firecrawl,1542,apps/api(deps-dev): bump the dev-deps group across 1 directory with 10 updates,2025-05-12,,2025-06-02,closed,unknown,21.0
+firecrawl/firecrawl,1516,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2025-05-05,,2025-05-12,closed,unknown,7.0
+firecrawl/firecrawl,1515,apps/api(deps): bump the prod-deps group in /apps/api with 61 updates,2025-05-05,,2025-05-12,closed,unknown,7.0
+firecrawl/firecrawl,1493,apps/api(deps): bump the prod-deps group across 1 directory with 62 updates,2025-04-23,,2025-04-30,closed,unknown,8.0
+firecrawl/firecrawl,1484,apps/api(deps): bump the prod-deps group across 1 directory with 63 updates,2025-04-21,,2025-04-23,closed,unknown,2.0
+firecrawl/firecrawl,1463,apps/api(deps): bump the prod-deps group across 1 directory with 60 updates,2025-04-15,,2025-04-21,closed,unknown,6.0
+firecrawl/firecrawl,1454,apps/api(deps): bump the prod-deps group across 1 directory with 56 updates,2025-04-14,,2025-04-15,closed,unknown,1.0
+firecrawl/firecrawl,1453,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2025-04-14,,2025-04-30,closed,unknown,17.0
+firecrawl/firecrawl,1449,apps/api(deps): bump the prod-deps group across 1 directory with 55 updates,2025-04-12,,2025-04-14,closed,unknown,1.0
+firecrawl/firecrawl,1444,apps/api(deps): bump the prod-deps group across 1 directory with 54 updates,2025-04-11,,2025-04-12,closed,unknown,2.0
+firecrawl/firecrawl,1425,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2025-04-08,,2025-04-08,closed,unknown,0.0
+firecrawl/firecrawl,1415,apps/api(deps-dev): bump the dev-deps group in /apps/api with 10 updates,2025-04-07,,2025-04-08,closed,unknown,1.0
+firecrawl/firecrawl,1402,apps/api(deps): bump the prod-deps group across 1 directory with 56 updates,2025-04-01,,2025-04-11,closed,unknown,10.0
+firecrawl/firecrawl,1396,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2025-03-31,,2025-04-01,closed,unknown,1.0
+firecrawl/firecrawl,1394,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 4 updates,2025-03-31,,2025-06-02,closed,unknown,63.0
+firecrawl/firecrawl,1393,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 8 updates,2025-03-31,,2025-05-26,closed,unknown,56.0
+firecrawl/firecrawl,1377,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 4 updates,2025-03-24,,2025-03-28,closed,unknown,4.0
+firecrawl/firecrawl,1376,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 8 updates,2025-03-24,,2025-03-28,closed,unknown,4.0
+firecrawl/firecrawl,1375,apps/api(deps-dev): bump the dev-deps group in /apps/api with 8 updates,2025-03-24,,2025-03-28,closed,unknown,4.0
+firecrawl/firecrawl,1374,apps/api(deps): bump the prod-deps group in /apps/api with 56 updates,2025-03-24,,2025-04-01,closed,unknown,8.0
+firecrawl/firecrawl,1356,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2025-03-17,,2025-03-17,closed,unknown,0.0
+firecrawl/firecrawl,1355,apps/api(deps): bump the prod-deps group in /apps/api with 56 updates,2025-03-17,,2025-03-17,closed,unknown,0.0
+firecrawl/firecrawl,1354,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 4 updates,2025-03-17,,2025-03-17,closed,unknown,1.0
+firecrawl/firecrawl,1353,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-03-17,,2025-03-17,closed,unknown,1.0
+firecrawl/firecrawl,1318,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 4 updates,2025-03-10,,2025-03-13,closed,unknown,3.0
+firecrawl/firecrawl,1317,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-03-10,,2025-03-13,closed,unknown,3.0
+firecrawl/firecrawl,1316,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2025-03-10,,2025-03-13,closed,unknown,3.0
+firecrawl/firecrawl,1315,apps/api(deps): bump the prod-deps group in /apps/api with 56 updates,2025-03-10,,2025-03-13,closed,unknown,3.0
+firecrawl/firecrawl,1290,apps/test-suite(deps): bump the prod-deps group across 1 directory with 7 updates,2025-03-03,,2025-03-05,closed,unknown,2.0
+firecrawl/firecrawl,1289,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 4 updates,2025-03-03,,2025-03-05,closed,unknown,2.0
+firecrawl/firecrawl,1288,apps/api(deps): bump the prod-deps group across 1 directory with 56 updates,2025-03-03,,2025-03-05,closed,unknown,2.0
+firecrawl/firecrawl,1287,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2025-03-03,,2025-03-05,closed,unknown,2.0
+firecrawl/firecrawl,1252,apps/api(deps): bump the prod-deps group across 1 directory with 54 updates,2025-02-24,,2025-03-03,closed,unknown,7.0
+firecrawl/firecrawl,1251,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2025-02-24,,2025-03-03,closed,unknown,7.0
+firecrawl/firecrawl,1250,apps/test-suite(deps): bump the prod-deps group across 1 directory with 7 updates,2025-02-24,,2025-03-03,closed,unknown,7.0
+firecrawl/firecrawl,1235,apps/api(deps): bump the prod-deps group across 1 directory with 50 updates,2025-02-21,,2025-02-24,closed,unknown,3.0
+firecrawl/firecrawl,1233,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2025-02-21,,2025-02-24,closed,unknown,3.0
+firecrawl/firecrawl,1226,apps/api(deps): bump the prod-deps group across 1 directory with 49 updates,2025-02-20,,2025-02-21,closed,unknown,1.0
+firecrawl/firecrawl,1209,apps/api(deps): bump the prod-deps group across 1 directory with 52 updates,2025-02-19,,2025-02-20,closed,unknown,1.0
+firecrawl/firecrawl,1190,apps/api(deps): bump the prod-deps group across 1 directory with 50 updates,2025-02-17,,2025-02-19,closed,unknown,3.0
+firecrawl/firecrawl,1189,apps/test-suite(deps): bump the prod-deps group across 1 directory with 7 updates,2025-02-17,,2025-02-24,closed,unknown,7.0
+firecrawl/firecrawl,1188,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 4 updates,2025-02-17,,2025-03-03,closed,unknown,14.0
+firecrawl/firecrawl,1187,apps/api(deps-dev): bump the dev-deps group across 1 directory with 14 updates,2025-02-17,,2025-02-21,closed,unknown,4.0
+firecrawl/firecrawl,1159,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-02-10,,2025-02-17,closed,unknown,7.0
+firecrawl/firecrawl,1158,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-02-10,,2025-02-17,closed,unknown,7.0
+firecrawl/firecrawl,1157,apps/api(deps-dev): bump the dev-deps group in /apps/api with 14 updates,2025-02-10,,2025-02-17,closed,unknown,7.0
+firecrawl/firecrawl,1156,apps/api(deps): bump the prod-deps group in /apps/api with 49 updates,2025-02-10,,2025-02-17,closed,unknown,7.0
+firecrawl/firecrawl,1155,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-02-10,,2025-08-21,closed,unknown,192.0
+firecrawl/firecrawl,1125,apps/api(deps-dev): bump the dev-deps group in /apps/api with 13 updates,2025-02-03,,2025-02-03,closed,unknown,0.0
+firecrawl/firecrawl,1124,apps/api(deps): bump the prod-deps group in /apps/api with 48 updates,2025-02-03,,2025-02-03,closed,unknown,0.0
+firecrawl/firecrawl,1123,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-02-03,,2025-02-03,closed,unknown,0.0
+firecrawl/firecrawl,1122,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-02-03,,2025-02-03,closed,unknown,0.0
+firecrawl/firecrawl,1121,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-02-03,,2025-02-03,closed,unknown,0.0
+firecrawl/firecrawl,1098,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2025-01-27,,2025-01-28,closed,unknown,2.0
+firecrawl/firecrawl,1097,apps/api(deps): bump the prod-deps group in /apps/api with 47 updates,2025-01-27,,2025-01-28,closed,unknown,2.0
+firecrawl/firecrawl,1096,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-01-27,,2025-01-28,closed,unknown,2.0
+firecrawl/firecrawl,1095,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-01-27,,2025-01-28,closed,unknown,2.0
+firecrawl/firecrawl,1094,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-01-27,,2025-01-28,closed,unknown,2.0
+firecrawl/firecrawl,1079,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-01-20,,2025-01-23,closed,unknown,3.0
+firecrawl/firecrawl,1078,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-01-20,,2025-01-23,closed,unknown,3.0
+firecrawl/firecrawl,1077,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2025-01-20,,2025-01-23,closed,unknown,3.0
+firecrawl/firecrawl,1076,apps/api(deps): bump the prod-deps group in /apps/api with 47 updates,2025-01-20,,2025-01-23,closed,unknown,3.0
+firecrawl/firecrawl,1075,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-01-20,,2025-01-23,closed,unknown,3.0
+firecrawl/firecrawl,1062,apps/api(deps): bump the prod-deps group across 1 directory with 47 updates,2025-01-14,,2025-01-14,closed,unknown,0.0
+firecrawl/firecrawl,1060,apps/api(deps): bump the prod-deps group across 1 directory with 47 updates,2025-01-13,,2025-01-14,closed,unknown,0.0
+firecrawl/firecrawl,1059,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2025-01-13,,2025-01-14,closed,unknown,0.0
+firecrawl/firecrawl,1058,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2025-01-13,,2025-01-13,closed,unknown,1.0
+firecrawl/firecrawl,1057,apps/api(deps): bump the prod-deps group in /apps/api with 47 updates,2025-01-13,,2025-01-13,closed,unknown,1.0
+firecrawl/firecrawl,1056,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-01-13,,2025-01-14,closed,unknown,1.0
+firecrawl/firecrawl,1055,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-01-13,,2025-01-14,closed,unknown,1.0
+firecrawl/firecrawl,1054,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-01-13,,2025-01-14,closed,unknown,1.0
+firecrawl/firecrawl,1043,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2025-01-06,,2025-01-06,closed,unknown,0.0
+firecrawl/firecrawl,1042,apps/api(deps): bump the prod-deps group in /apps/api with 46 updates,2025-01-06,,2025-01-06,closed,unknown,0.0
+firecrawl/firecrawl,1041,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2025-01-06,,2025-01-06,closed,unknown,0.0
+firecrawl/firecrawl,1040,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2025-01-06,,2025-01-06,closed,unknown,0.0
+firecrawl/firecrawl,1039,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2025-01-06,,2025-01-06,closed,unknown,0.0
+firecrawl/firecrawl,1026,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-12-30,,2024-12-30,closed,unknown,0.0
+firecrawl/firecrawl,1025,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2024-12-30,,2024-12-30,closed,unknown,0.0
+firecrawl/firecrawl,1024,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2024-12-30,,2024-12-30,closed,unknown,0.0
+firecrawl/firecrawl,1023,apps/api(deps): bump the prod-deps group in /apps/api with 46 updates,2024-12-30,,2024-12-30,closed,unknown,0.0
+firecrawl/firecrawl,1022,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-12-30,,2024-12-30,closed,unknown,0.0
+firecrawl/firecrawl,1008,apps/test-suite(deps): bump the prod-deps group across 1 directory with 7 updates,2024-12-23,,2024-12-23,closed,unknown,0.0
+firecrawl/firecrawl,1007,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-12-23,,2024-12-23,closed,unknown,0.0
+firecrawl/firecrawl,1006,apps/api(deps): bump the prod-deps group across 1 directory with 46 updates,2024-12-23,,2024-12-27,closed,unknown,5.0
+firecrawl/firecrawl,988,apps/api(deps): bump the prod-deps group across 1 directory with 44 updates,2024-12-17,,2024-12-23,closed,unknown,6.0
+firecrawl/firecrawl,986,apps/api(deps): bump the prod-deps group across 1 directory with 44 updates,2024-12-17,,2024-12-17,closed,unknown,0.0
+firecrawl/firecrawl,985,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-12-17,,2024-12-24,closed,unknown,7.0
+firecrawl/firecrawl,983,apps/api(deps): bump the prod-deps group across 1 directory with 44 updates,2024-12-16,,2024-12-17,closed,unknown,1.0
+firecrawl/firecrawl,982,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-12-16,,2024-12-17,closed,unknown,1.0
+firecrawl/firecrawl,981,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-12-16,,2024-12-24,closed,unknown,8.0
+firecrawl/firecrawl,980,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2024-12-16,,2024-12-23,closed,unknown,7.0
+firecrawl/firecrawl,967,apps/api(deps): bump the prod-deps group across 1 directory with 44 updates,2024-12-11,,2024-12-16,closed,unknown,4.0
+firecrawl/firecrawl,966,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-12-11,,2024-12-16,closed,unknown,4.0
+firecrawl/firecrawl,953,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-12-09,,2024-12-09,closed,unknown,0.0
+firecrawl/firecrawl,952,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 7 updates,2024-12-09,,2024-12-09,closed,unknown,0.0
+firecrawl/firecrawl,951,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-12-09,,2024-12-09,closed,unknown,0.0
+firecrawl/firecrawl,950,apps/api(deps): bump the prod-deps group across 1 directory with 43 updates,2024-12-09,,2024-12-11,closed,unknown,3.0
+firecrawl/firecrawl,949,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-12-09,,2024-12-11,closed,unknown,3.0
+firecrawl/firecrawl,937,apps/api(deps): bump the prod-deps group across 1 directory with 41 updates,2024-12-02,,2024-12-09,closed,unknown,7.0
+firecrawl/firecrawl,936,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-12-02,,2024-12-09,closed,unknown,7.0
+firecrawl/firecrawl,935,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-12-02,,2024-12-04,closed,unknown,2.0
+firecrawl/firecrawl,934,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-12-02,,2024-12-04,closed,unknown,2.0
+firecrawl/firecrawl,933,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-12-02,,2024-12-04,closed,unknown,2.0
+firecrawl/firecrawl,927,apps/api(deps): bump the prod-deps group across 1 directory with 41 updates,2024-11-26,,2024-12-02,closed,unknown,6.0
+firecrawl/firecrawl,926,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-11-26,,2024-12-02,closed,unknown,6.0
+firecrawl/firecrawl,923,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-11-25,,2024-11-29,closed,unknown,4.0
+firecrawl/firecrawl,922,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-11-25,,2024-11-29,closed,unknown,4.0
+firecrawl/firecrawl,921,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-11-25,,2024-11-29,closed,unknown,4.0
+firecrawl/firecrawl,920,apps/api(deps): bump the prod-deps group in /apps/api with 42 updates,2024-11-25,,2024-11-26,closed,unknown,1.0
+firecrawl/firecrawl,919,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-11-25,,2024-11-26,closed,unknown,1.0
+firecrawl/firecrawl,907,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-11-18,,2024-11-18,closed,unknown,0.0
+firecrawl/firecrawl,906,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-11-18,,2024-11-18,closed,unknown,0.0
+firecrawl/firecrawl,905,apps/api(deps): bump the prod-deps group across 1 directory with 41 updates,2024-11-18,,2024-11-18,closed,unknown,0.0
+firecrawl/firecrawl,904,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-11-18,,2024-11-18,closed,unknown,0.0
+firecrawl/firecrawl,894,apps/api(deps): bump the prod-deps group across 1 directory with 40 updates,2024-11-12,,2024-11-18,closed,unknown,5.0
+firecrawl/firecrawl,889,apps/api(deps): bump the prod-deps group across 1 directory with 41 updates,2024-11-11,,2024-11-12,closed,unknown,2.0
+firecrawl/firecrawl,888,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-11-11,,2024-11-11,closed,unknown,1.0
+firecrawl/firecrawl,887,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-11-11,,2024-11-11,closed,unknown,1.0
+firecrawl/firecrawl,886,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-11-11,,2024-11-11,closed,unknown,1.0
+firecrawl/firecrawl,876,apps/api(deps): bump the prod-deps group across 1 directory with 40 updates,2024-11-07,,2024-11-11,closed,unknown,3.0
+firecrawl/firecrawl,875,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-11-07,,2024-11-25,closed,unknown,17.0
+firecrawl/firecrawl,865,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-11-04,,2024-11-04,closed,unknown,1.0
+firecrawl/firecrawl,864,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-11-04,,2024-11-04,closed,unknown,1.0
+firecrawl/firecrawl,863,apps/api(deps): bump the prod-deps group across 1 directory with 39 updates,2024-11-04,,2024-11-07,closed,unknown,4.0
+firecrawl/firecrawl,862,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-11-04,,2024-11-07,closed,unknown,4.0
+firecrawl/firecrawl,861,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-11-04,,2024-11-04,closed,unknown,1.0
+firecrawl/firecrawl,836,apps/api(deps): bump the prod-deps group across 1 directory with 38 updates,2024-10-28,,2024-11-04,closed,unknown,7.0
+firecrawl/firecrawl,835,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-10-28,,2024-11-04,closed,unknown,7.0
+firecrawl/firecrawl,834,apps/playwright-service(deps): bump the prod-deps group across 1 directory with 2 updates,2024-10-28,,2024-10-28,closed,unknown,0.0
+firecrawl/firecrawl,833,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-10-28,,2024-10-28,closed,unknown,0.0
+firecrawl/firecrawl,832,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-10-28,,2024-10-28,closed,unknown,0.0
+firecrawl/firecrawl,805,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-10-21,,2024-10-23,closed,unknown,2.0
+firecrawl/firecrawl,804,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-10-21,,2024-10-23,closed,unknown,2.0
+firecrawl/firecrawl,803,apps/api(deps-dev): bump the dev-deps group in /apps/api with 12 updates,2024-10-21,,2024-10-28,closed,unknown,7.0
+firecrawl/firecrawl,802,apps/api(deps): bump the prod-deps group in /apps/api with 37 updates,2024-10-21,,2024-10-28,closed,unknown,7.0
+firecrawl/firecrawl,801,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-10-21,,2024-10-28,closed,unknown,7.0
+firecrawl/firecrawl,778,apps/test-suite(deps): bump the prod-deps group across 1 directory with 6 updates,2024-10-14,,2024-10-14,closed,unknown,1.0
+firecrawl/firecrawl,777,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 3 updates,2024-10-14,,2024-10-14,closed,unknown,1.0
+firecrawl/firecrawl,776,apps/playwright-service(deps): bump the prod-deps group across 1 directory with 2 updates,2024-10-14,,2024-10-19,closed,unknown,5.0
+firecrawl/firecrawl,775,apps/api(deps): bump the prod-deps group across 1 directory with 37 updates,2024-10-14,,2024-10-19,closed,unknown,5.0
+firecrawl/firecrawl,774,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-10-14,,2024-10-19,closed,unknown,5.0
+firecrawl/firecrawl,743,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-10-07,,2024-10-14,closed,unknown,7.0
+firecrawl/firecrawl,742,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-10-07,,2024-10-14,closed,unknown,7.0
+firecrawl/firecrawl,741,apps/api(deps): bump the prod-deps group across 1 directory with 36 updates,2024-10-07,,2024-10-14,closed,unknown,7.0
+firecrawl/firecrawl,740,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-10-07,,2024-10-14,closed,unknown,7.0
+firecrawl/firecrawl,719,apps/api(deps): bump the prod-deps group across 1 directory with 36 updates,2024-09-30,,2024-10-07,closed,unknown,7.0
+firecrawl/firecrawl,718,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-09-30,,2024-10-14,closed,unknown,14.0
+firecrawl/firecrawl,717,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-09-30,,2024-09-30,closed,unknown,0.0
+firecrawl/firecrawl,716,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-09-30,,2024-09-30,closed,unknown,1.0
+firecrawl/firecrawl,715,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-09-30,,2024-09-30,closed,unknown,1.0
+firecrawl/firecrawl,695,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-09-23,,2024-09-23,closed,unknown,0.0
+firecrawl/firecrawl,694,apps/api(deps): bump the prod-deps group across 1 directory with 35 updates,2024-09-23,,2024-09-30,closed,unknown,7.0
+firecrawl/firecrawl,693,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-09-23,,2024-09-30,closed,unknown,7.0
+firecrawl/firecrawl,692,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-09-23,,2024-09-23,closed,unknown,0.0
+firecrawl/firecrawl,691,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-09-23,,2024-09-23,closed,unknown,0.0
+firecrawl/firecrawl,673,apps/test-suite(deps-dev): bump the dev-deps group in /apps/test-suite with 3 updates,2024-09-16,,2024-09-17,closed,unknown,1.0
+firecrawl/firecrawl,672,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-09-16,,2024-09-19,closed,unknown,3.0
+firecrawl/firecrawl,671,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-09-16,,2024-09-19,closed,unknown,3.0
+firecrawl/firecrawl,670,apps/api(deps): bump the prod-deps group across 1 directory with 34 updates,2024-09-16,,2024-09-23,closed,unknown,7.0
+firecrawl/firecrawl,669,apps/api(deps-dev): bump the dev-deps group across 1 directory with 12 updates,2024-09-16,,2024-09-23,closed,unknown,7.0
+firecrawl/firecrawl,646,apps/test-suite(deps): bump the prod-deps group across 1 directory with 6 updates,2024-09-09,,2024-09-09,closed,unknown,1.0
+firecrawl/firecrawl,645,apps/playwright-service(deps): bump the prod-deps group across 1 directory with 2 updates,2024-09-09,,2024-09-09,closed,unknown,1.0
+firecrawl/firecrawl,643,apps/api(deps): bump the prod-deps group across 1 directory with 33 updates,2024-09-09,,2024-09-16,closed,unknown,7.0
+firecrawl/firecrawl,627,apps/api(deps): bump the prod-deps group across 1 directory with 33 updates,2024-09-05,,2024-09-09,closed,unknown,4.0
+firecrawl/firecrawl,626,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2024-09-05,,2024-09-16,closed,unknown,11.0
+firecrawl/firecrawl,605,apps/test-suite(deps): bump the prod-deps group across 1 directory with 6 updates,2024-09-02,,2024-09-09,closed,unknown,7.0
+firecrawl/firecrawl,604,apps/api(deps): bump the prod-deps group across 1 directory with 32 updates,2024-09-02,,2024-09-05,closed,unknown,3.0
+firecrawl/firecrawl,603,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2024-09-02,,2024-09-05,closed,unknown,3.0
+firecrawl/firecrawl,596,apps/api(deps): bump the prod-deps group across 1 directory with 32 updates,2024-08-31,,2024-09-02,closed,unknown,2.0
+firecrawl/firecrawl,580,apps/api(deps): bump the prod-deps group across 1 directory with 33 updates,2024-08-28,,2024-08-31,closed,unknown,3.0
+firecrawl/firecrawl,579,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2024-08-28,,2024-09-02,closed,unknown,5.0
+firecrawl/firecrawl,575,apps/test-suite(deps): bump the prod-deps group across 1 directory with 6 updates,2024-08-26,,2024-09-02,closed,unknown,7.0
+firecrawl/firecrawl,574,apps/test-suite(deps-dev): bump the dev-deps group across 1 directory with 2 updates,2024-08-26,,2024-09-09,closed,unknown,15.0
+firecrawl/firecrawl,573,apps/api(deps): bump the prod-deps group across 1 directory with 29 updates,2024-08-26,,2024-08-28,closed,unknown,2.0
+firecrawl/firecrawl,572,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2024-08-26,,2024-08-28,closed,unknown,2.0
+firecrawl/firecrawl,571,apps/playwright-service(deps): bump the prod-deps group across 1 directory with 2 updates,2024-08-26,,2024-09-09,closed,unknown,14.0
+firecrawl/firecrawl,565,apps/api(deps): bump the prod-deps group across 1 directory with 29 updates,2024-08-21,,2024-08-26,closed,unknown,5.0
+firecrawl/firecrawl,564,apps/api(deps-dev): bump the dev-deps group across 1 directory with 9 updates,2024-08-21,,2024-08-26,closed,unknown,5.0
+firecrawl/firecrawl,553,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-08-19,,2024-08-21,closed,unknown,2.0
+firecrawl/firecrawl,552,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.4 in /apps/test-suite in the dev-deps group,2024-08-19,,2024-08-26,closed,typescript,7.0
+firecrawl/firecrawl,551,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-08-19,,2024-08-26,closed,unknown,7.0
+firecrawl/firecrawl,550,apps/api(deps): bump the prod-deps group in /apps/api with 29 updates,2024-08-19,,2024-08-21,closed,unknown,2.0
+firecrawl/firecrawl,549,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-08-19,,2024-08-26,closed,unknown,7.0
+firecrawl/firecrawl,524,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-08-12,,2024-08-12,closed,unknown,0.0
+firecrawl/firecrawl,523,apps/api(deps): bump the prod-deps group in /apps/api with 27 updates,2024-08-12,,2024-08-12,closed,unknown,0.0
+firecrawl/firecrawl,522,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-08-12,,2024-08-12,closed,unknown,0.0
+firecrawl/firecrawl,521,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.4 in /apps/test-suite in the dev-deps group,2024-08-12,,2024-08-12,closed,typescript,0.0
+firecrawl/firecrawl,520,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 5 updates,2024-08-12,,2024-08-12,closed,unknown,0.0
+firecrawl/firecrawl,502,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-08-05,,2024-08-05,closed,unknown,0.0
+firecrawl/firecrawl,501,apps/api(deps): bump the prod-deps group in /apps/api with 25 updates,2024-08-05,,2024-08-05,closed,unknown,0.0
+firecrawl/firecrawl,500,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.4 in /apps/test-suite in the dev-deps group,2024-08-05,,2024-08-05,closed,typescript,0.0
+firecrawl/firecrawl,499,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 5 updates,2024-08-05,,2024-08-05,closed,unknown,0.0
+firecrawl/firecrawl,498,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-08-05,,2024-08-05,closed,unknown,0.0
+firecrawl/firecrawl,473,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-07-29,,2024-07-29,closed,unknown,0.0
+firecrawl/firecrawl,472,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-07-29,,2024-07-29,closed,unknown,0.0
+firecrawl/firecrawl,471,apps/api(deps): bump the prod-deps group in /apps/api with 20 updates,2024-07-29,,2024-07-29,closed,unknown,0.0
+firecrawl/firecrawl,470,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.4 in /apps/test-suite in the dev-deps group,2024-07-29,,2024-07-29,closed,typescript,0.0
+firecrawl/firecrawl,469,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 4 updates,2024-07-29,,2024-07-29,closed,unknown,0.0
+firecrawl/firecrawl,445,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-07-22,,2024-07-22,closed,unknown,0.0
+firecrawl/firecrawl,444,apps/api(deps): bump the prod-deps group in /apps/api with 17 updates,2024-07-22,,2024-07-22,closed,unknown,0.0
+firecrawl/firecrawl,443,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 4 updates,2024-07-22,,2024-07-22,closed,unknown,0.0
+firecrawl/firecrawl,406,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 2 updates,2024-07-15,,2024-07-15,closed,unknown,0.0
+firecrawl/firecrawl,405,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 4 updates,2024-07-15,,2024-07-15,closed,unknown,0.0
+firecrawl/firecrawl,404,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-07-15,,2024-07-15,closed,unknown,0.0
+firecrawl/firecrawl,403,apps/api(deps): bump the prod-deps group in /apps/api with 18 updates,2024-07-15,,2024-07-15,closed,unknown,0.0
+firecrawl/firecrawl,382,apps/playwright-service(deps): bump playwright from 1.44.0 to 1.45.0 in /apps/playwright-service in the prod-deps group,2024-07-08,,2024-07-09,closed,playwright,1.0
+firecrawl/firecrawl,381,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.3 in /apps/test-suite in the dev-deps group,2024-07-08,,2024-07-08,closed,typescript,1.0
+firecrawl/firecrawl,380,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 3 updates,2024-07-08,,2024-07-09,closed,unknown,1.0
+firecrawl/firecrawl,379,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-07-08,,2024-07-09,closed,unknown,1.0
+firecrawl/firecrawl,378,apps/api(deps): bump the prod-deps group in /apps/api with 11 updates,2024-07-08,,2024-07-09,closed,unknown,1.0
+firecrawl/firecrawl,350,apps/api(deps-dev): bump the dev-deps group in /apps/api with 9 updates,2024-07-02,,2024-07-05,closed,unknown,3.0
+firecrawl/firecrawl,349,apps/api(deps): bump the prod-deps group in /apps/api with 28 updates,2024-07-02,2024-07-05,2024-07-05,merged,unknown,3.0
+firecrawl/firecrawl,348,apps/test-suite(deps-dev): bump typescript from 5.4.5 to 5.5.3 in /apps/test-suite in the dev-deps group,2024-07-02,2024-07-05,2024-07-05,merged,typescript,3.0
+firecrawl/firecrawl,347,apps/test-suite(deps): bump the prod-deps group in /apps/test-suite with 6 updates,2024-07-02,2024-07-05,2024-07-05,merged,unknown,3.0
+firecrawl/firecrawl,346,apps/playwright-service(deps): bump the prod-deps group in /apps/playwright-service with 3 updates,2024-07-02,2024-07-03,2024-07-03,merged,unknown,1.0
+NousResearch/hermes-agent,24300,chore(deps): bump python-dotenv from 1.2.1 to 1.2.2,2026-05-12,,,open,python-dotenv,
+NousResearch/hermes-agent,24011,chore(deps): bump mermaid from 11.13.0 to 11.15.0 in /website,2026-05-11,,,open,mermaid,
+NousResearch/hermes-agent,23942,chore(deps): bump urllib3 from 2.6.3 to 2.7.0,2026-05-11,,,open,urllib3,
+NousResearch/hermes-agent,23923,chore(actions)(deps): bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml from 2.3.5 to 2.3.8 in the actions-minor-patch group,2026-05-11,,,open,google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml,
+NousResearch/hermes-agent,22783,chore(deps): bump @babel/plugin-transform-modules-systemjs from 7.29.0 to 7.29.4 in /website,2026-05-09,,,open,@babel/plugin-transform-modules-systemjs,
+NousResearch/hermes-agent,22082,chore(deps): bump fast-uri from 3.1.0 to 3.1.2 in /website,2026-05-08,,,open,fast-uri,
+NousResearch/hermes-agent,20932,chore(deps): bump python-multipart from 0.0.22 to 0.0.27,2026-05-06,,,open,python-multipart,
+NousResearch/hermes-agent,20931,chore(deps): bump gitpython from 3.1.46 to 3.1.49,2026-05-06,,,open,gitpython,
+NousResearch/hermes-agent,20910,chore(deps): bump gitpython from 3.1.46 to 3.1.48,2026-05-06,,2026-05-06,closed,gitpython,0.0
+NousResearch/hermes-agent,20236,chore(deps): bump lodash from 4.17.23 to 4.18.1 in /website,2026-05-05,,,open,lodash,
+NousResearch/hermes-agent,20235,chore(deps): bump follow-redirects from 1.15.11 to 1.16.0 in /website,2026-05-05,,,open,follow-redirects,
+NousResearch/hermes-agent,20234,chore(deps): bump lodash-es and langium in /website,2026-05-05,,,open,unknown,
+NousResearch/hermes-agent,20047,chore(actions)(deps): bump actions/checkout from 4.3.1 to 6.0.2,2026-05-05,,,open,actions/checkout,
+NousResearch/hermes-agent,20046,chore(actions)(deps): bump actions/setup-python from 5.3.0 to 6.2.0,2026-05-05,,,open,actions/setup-python,
+NousResearch/hermes-agent,20045,chore(actions)(deps): bump docker/setup-qemu-action from 3.7.0 to 4.0.0,2026-05-05,,2026-05-08,closed,docker/setup-qemu-action,4.0
+NousResearch/hermes-agent,20044,chore(actions)(deps): bump docker/build-push-action from 6.19.2 to 7.1.0,2026-05-05,,,open,docker/build-push-action,
+NousResearch/hermes-agent,20043,chore(actions)(deps): bump docker/login-action from 3.7.0 to 4.1.0,2026-05-05,,,open,docker/login-action,
+NousResearch/hermes-agent,20041,chore(deps): bump dompurify from 3.3.3 to 3.4.2 in /website,2026-05-05,,,open,dompurify,

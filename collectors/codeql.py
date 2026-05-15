@@ -77,7 +77,8 @@ def _detect_from_workflows(
 
 
 def _extract_languages(content: str) -> List[str]:
-    langs = re.findall(r"language['\"]?\s*:\s*['\"]?([a-zA-Z+\-]+)['\"]?", content)
+    # Match both singular "language:" and plural "languages:" YAML keys
+    langs = re.findall(r"languages?\s*:\s*['\"]?([a-zA-Z+\-]+)['\"]?", content)
     return list({l.lower() for l in langs if l.lower() not in ("language", "languages")})
 
 
@@ -110,15 +111,34 @@ def _parse_alert(alert: Dict, owner: str, repo: str) -> Dict:
         else _SEVERITY_MAP.get(severity_raw, severity_raw or "unknown")
     )
     tags = rule.get("tags") or []
-    cwes = [t for t in tags if t.lower().startswith("cwe")]
+    # Tags arrive as "external/cwe/cwe-79" or bare "cwe-79"; extract the last component
+    cwes = [t.split("/")[-1].upper() for t in tags if "cwe-" in t.lower()]
     return {
         "repo_full_name": f"{owner}/{repo}",
         "alert_number": alert.get("number"),
         "title": (rule.get("description") or rule.get("name") or "")[:255],
         "severity": severity,
         "cwes": ";".join(cwes),
-        "state": alert.get("state", ""),
     }
+
+
+# ── Fork helpers ─────────────────────────────────────────────────────────────
+
+def _get_fork_languages(client: GitHubClient, fork_full: str) -> List[str]:
+    """Extract analysed languages from a fork's code-scanning analyses."""
+    import json as _json
+    analyses = client.get_paginated(f"/repos/{fork_full}/code-scanning/analyses")
+    langs: set = set()
+    for a in analyses:
+        env = a.get("environment", "")
+        if env:
+            try:
+                lang = _json.loads(env).get("language", "")
+                if lang:
+                    langs.add(lang.lower())
+            except Exception:
+                pass
+    return sorted(langs)
 
 
 # ── Fork-and-run ─────────────────────────────────────────────────────────────
@@ -157,14 +177,15 @@ jobs:
 
 def _fork_and_run(
     client: GitHubClient, owner: str, repo: str
-) -> Tuple[Optional[List[Dict]], str]:
+) -> Tuple[Optional[List[Dict]], List[str], str]:
     """Fork repo, run CodeQL, collect alerts.
 
     The fork is NEVER deleted. On subsequent calls the existing fork is reused
     directly and alerts are fetched without cloning again.
 
-    Returns (alert_list_or_None, strategy_string).
+    Returns (raw_alert_list_or_None, languages, strategy_string).
     strategy_string: "fork_existing" | "fork_new" | "fork_failed"
+    Raw alerts are unparsed GitHub API objects; caller is responsible for parsing.
     """
     import subprocess
 
@@ -172,15 +193,15 @@ def _fork_and_run(
         logger.warning(
             "ENABLE_CODEQL_FORK_RUN requires GITHUB_TOKEN — skipping %s/%s", owner, repo
         )
-        return None, "fork_failed"
+        return None, [], "fork_failed"
 
     me_data = client.get("/user", use_cache=False)
     if not me_data:
         logger.warning("Could not determine authenticated user — skipping fork-and-run")
-        return None, "fork_failed"
+        return None, [], "fork_failed"
     me = me_data.get("login", "")
     if not me:
-        return None, "fork_failed"
+        return None, [], "fork_failed"
 
     fork_full = f"{me}/{repo}"
 
@@ -192,11 +213,11 @@ def _fork_and_run(
             owner, repo, fork_full,
         )
         raw = client.get_paginated(f"/repos/{fork_full}/code-scanning/alerts")
-        alerts = [_parse_alert(a, owner, repo) for a in (raw or [])]
+        langs = _get_fork_languages(client, fork_full)
         logger.info(
-            "[%s/%s] Found %d alert(s) in existing fork", owner, repo, len(alerts)
+            "[%s/%s] Found %d alert(s) in existing fork", owner, repo, len(raw or [])
         )
-        return alerts, "fork_existing"
+        return raw or [], langs, "fork_existing"
 
     # ── Create new fork ───────────────────────────────────────────────────────
     logger.info("[%s/%s] Creating fork for CodeQL run …", owner, repo)
@@ -205,7 +226,7 @@ def _fork_and_run(
     )
     if not fork_data:
         logger.warning("Failed to fork %s/%s", owner, repo)
-        return None, "fork_failed"
+        return None, [], "fork_failed"
 
     time.sleep(15)  # GitHub needs a moment to provision the fork
 
@@ -223,7 +244,7 @@ def _fork_and_run(
             client.stats.git_clones += 1
         except subprocess.CalledProcessError as exc:
             logger.error("git clone failed for %s: %s", fork_full, exc.stderr[:500])
-            return None, "fork_failed"
+            return None, [], "fork_failed"
         finally:
             time.sleep(GIT_CLONE_DELAY_SECONDS)
 
@@ -244,7 +265,7 @@ def _fork_and_run(
             fork_full,
             exc.stderr[:500] if exc.stderr else str(exc),
         )
-        return None, "fork_failed"
+        return None, [], "fork_failed"
     finally:
         shutil.rmtree(clone_dir, ignore_errors=True)  # local clone removed; fork kept on GitHub
 
@@ -277,9 +298,9 @@ def _fork_and_run(
         logger.warning("[%s] CodeQL timed out — collecting whatever alerts exist", fork_full)
 
     raw = client.get_paginated(f"/repos/{fork_full}/code-scanning/alerts")
-    alerts = [_parse_alert(a, owner, repo) for a in (raw or [])]
-    logger.info("[%s/%s] CodeQL fork-and-run complete: %d alerts", owner, repo, len(alerts))
-    return alerts, "fork_new"
+    langs = _get_fork_languages(client, fork_full)
+    logger.info("[%s/%s] CodeQL fork-and-run complete: %d alerts", owner, repo, len(raw or []))
+    return raw or [], langs, "fork_new"
 
 
 # ── Public entry point ────────────────────────────────────────────────────────
@@ -315,26 +336,27 @@ def collect(
 
     enabled = found_wf or found_api
 
-    if not enabled:
-        return _empty, []
-
-    logger.info(
-        "[%s/%s] CodeQL detected via strategy: %s", owner, repo, strategy
-    )
+    if enabled:
+        logger.info("[%s/%s] CodeQL detected via strategy: %s", owner, repo, strategy)
 
     # Step 2: collect alerts
     raw_alerts = _get_alerts_from_api(client, owner, repo)
 
+    fork_langs: List[str] = []
     if raw_alerts is None and ENABLE_CODEQL_FORK_RUN:
         logger.info(
             "[%s/%s] API alerts inaccessible — starting fork-and-run", owner, repo
         )
-        raw_alerts, fork_strategy = _fork_and_run(client, owner, repo)
+        raw_alerts, fork_langs, fork_strategy = _fork_and_run(client, owner, repo)
         if fork_strategy != "fork_failed":
             strategy = fork_strategy
+            enabled = True
     elif raw_alerts is None:
         raw_alerts = []
         logger.debug("[%s/%s] CodeQL alerts not accessible via API", owner, repo)
+
+    if not enabled:
+        return _empty, []
 
     alert_rows = [_parse_alert(a, owner, repo) for a in (raw_alerts or [])]
 
@@ -344,19 +366,29 @@ def collect(
         if k in sev:
             sev[k] += 1
 
-    # Enrich languages from analyses if workflow parsing yielded nothing
-    detected_langs = langs_wf
+    # Language priority: workflow YAML → fork analyses → original analyses API
+    detected_langs = langs_wf or fork_langs
     if not detected_langs and found_api:
         all_analyses = client.get_paginated(
             f"/repos/{owner}/{repo}/code-scanning/analyses"
         )
-        lang_set = {a.get("tool", {}).get("name", "") for a in all_analyses}
-        detected_langs = [l.lower() for l in lang_set if l]
+        import json as _json
+        lang_set: set = set()
+        for a in all_analyses:
+            env = a.get("environment", "")
+            if env:
+                try:
+                    lang = _json.loads(env).get("language", "")
+                    if lang:
+                        lang_set.add(lang.lower())
+                except Exception:
+                    pass
+        detected_langs = sorted(lang_set)
 
     repo_stats = {
         "codeql_enabled": True,
         "codeql_detection_strategy": strategy,
-        "codeql_languages": ";".join(sorted(set(detected_langs))),
+        "codeql_languages": ";".join(detected_langs),
         "codeql_total_alerts": len(alert_rows),
         "codeql_low_alerts": sev["low"],
         "codeql_medium_alerts": sev["medium"],

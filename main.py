@@ -1,17 +1,16 @@
 """
-GitHub Security Analysis — main entry point.
+GitHub Security Analysis - AI repositories.
 
 Usage:
     python main.py              # resume from last run (skips already-saved repos)
-    python main.py --fresh      # delete CSVs and start over (cache kept)
+    python main.py --fresh      # delete output CSVs and start over (cache kept)
     python main.py --no-cache   # ignore cached API responses (implies fresh HTTP calls)
     python main.py --log DEBUG  # verbose logging
-    python main.py --workers 8  # override MAX_WORKERS
+    python main.py --workers 8  # override MAX_WORKERS, check nproc
 
-Resume behaviour
-----------------
-Each repo's data is written to the four CSV files immediately after collection.
-On restart, repos already present in repositories.csv are skipped automatically.
+Behaviour:
+Each repo's data is written to four CSV files immediately after collection.
+On restart, repos already present in repositories.csv are skipped.
 Use --fresh to force a full re-run (e.g. after changing MAX_REPOS or search criteria).
 """
 
@@ -79,11 +78,11 @@ _DEPBOT_COLUMNS = [
 ]
 
 _CODEQL_COLUMNS = [
-    "repo_full_name", "alert_number", "title", "severity", "cwes", "state",
+    "repo_full_name", "alert_number", "title", "severity", "cwes",
 ]
 
 _ADVISORY_COLUMNS = [
-    "repo_full_name", "advisory_id", "ghsa_id", "cve_id",
+    "repo_full_name", "ghsa_id", "cve_id",
     "title", "severity", "cwes", "ecosystem",
 ]
 

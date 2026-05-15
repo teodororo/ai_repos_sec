@@ -47,13 +47,13 @@ def _fmt_date(dt_str: Optional[str]) -> Optional[str]:
         return dt_str[:10]
 
 
-def _days_between(start: Optional[str], end: Optional[str]) -> Optional[float]:
+def _days_between(start: Optional[str], end: Optional[str]) -> Optional[int]:
     if not start or not end:
         return None
     try:
         t0 = datetime.fromisoformat(start.replace("Z", "+00:00"))
         t1 = datetime.fromisoformat(end.replace("Z", "+00:00"))
-        return max(0.0, round((t1 - t0).total_seconds() / 86400, 2))
+        return max(0, round((t1 - t0).total_seconds() / 86400))
     except ValueError:
         return None
 
